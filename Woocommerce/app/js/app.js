@@ -82,6 +82,3 @@ burger.addEventListener('click', function (event) {
         main.style.filter = 'blur(0px)';
     }
 });
-window.onresize = function () {
-    location.reload();
-}
