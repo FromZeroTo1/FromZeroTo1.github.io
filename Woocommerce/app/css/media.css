@@ -1809,6 +1809,9 @@
     .product-fill__gallery{
         height: 350px;
     }
+    .info-box__first-item {
+        height: 530px;
+    }
 }
 @media (max-width: 400px) {
     .mobile-menu__title,
