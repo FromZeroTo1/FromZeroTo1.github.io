@@ -167,6 +167,9 @@ body{
         margin: 0;
         padding: 0;
     }
+    ol{
+        padding-left: 15px;
+    }
 }
 @media(max-width: 400px){
     .header__title,
