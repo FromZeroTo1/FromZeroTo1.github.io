@@ -16,8 +16,7 @@ body{
     text-align: right;
 }
 .container{
-    max-width: 1400px;
-    width: 100%;
+    width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -108,6 +107,9 @@ body{
     .info__date,
     .info__text{
         font-size: 18px;
+    }
+    .container{
+        width: 100%;
     }
 }
 @media(max-width: 900px){
