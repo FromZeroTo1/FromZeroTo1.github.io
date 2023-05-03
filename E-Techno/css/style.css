@@ -161,6 +161,10 @@ body{
     .header__logo{
         width: 150px;
     }
+    ul,ol{
+        margin: 0;
+        padding: 0;
+    }
 }
 @media(max-width: 400px){
     .header__title,
