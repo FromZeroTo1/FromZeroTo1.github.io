@@ -1,0 +1,174 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.bold{
+    font-weight: 700;
+}
+.header__inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title{
+    text-align: right;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.table{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.table, .table__th, .table__td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table__tr.table__head{
+    height: 60px;
+}
+.table__tr{
+    height: 40px;
+}
+.table__td{
+    text-align: center;
+    padding: 10px;
+}
+.warranty__terms,
+.warranty__conditions{
+    margin-bottom: 40px;
+}
+.warranty__terms-title,
+.warranty__conditions-title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.warranty__terms-item + .warranty__terms-item,
+.warranty__conditions-item + .warranty__conditions-item{
+    margin-top: 15px;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.requisite,
+.info{
+    margin-bottom: 40px;
+}
+.requisite{
+    max-width: 450px;
+    width: 100%;
+}
+.info{
+    max-width: 540px;
+    width: 100%;
+}
+.requisite__title,
+.info__title{
+    text-align: center;
+}
+.requisite__list{
+    padding: 0;
+    margin: 0;
+}
+.requisite__item{
+    list-style: none;
+    font-size: 22px;
+}
+.requisite__tel{
+    color: #000;
+    text-decoration: none;
+}
+.requisite__item + .requisite__item{
+    margin-top: 3px;
+}
+.info{
+    border-bottom: 1px solid #000;
+}
+.info__date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.info__text{
+    font-size: 22px;
+}
+.copyright{
+    font-size: 14px;
+    text-align: center;
+}
+@media(max-width: 1400px){
+    .requisite__item,
+    .info__date,
+    .info__text{
+        font-size: 18px;
+    }
+}
+@media(max-width: 900px){
+    .footer__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .requisite,
+    .info{
+        max-width: 100%;
+    }
+    .requisite__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .table__th{
+        font-size: 14px;
+    }
+    .table__td {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .table__tr {
+        height: 30px;
+    }
+    .header__title,
+    .warranty__terms-title,
+    .warranty__conditions-title{
+        font-size: 26px;
+    }
+}
+@media(max-width: 680px){
+    .table__td{
+        font-size: 11px;
+    }
+    .table__th {
+        font-size: 12px;
+    }
+    .header__title,
+    .warranty__terms-title,
+    .warranty__conditions-title{
+        font-size: 23px;
+    }
+    .requisite__title,
+    .info__title{
+        font-size: 20px;
+    }
+    .header__logo{
+        width: 150px;
+    }
+}
+@media(max-width: 400px){
+    .header__title,
+    .warranty__terms-title,
+    .warranty__conditions-title{
+        font-size: 22px;
+    }
+    .header__logo{
+        width: 125px;
+    }
+}
