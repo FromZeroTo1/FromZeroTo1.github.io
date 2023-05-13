@@ -50,6 +50,9 @@
         font-size: 18px;
         line-height: 18px;
     }    
+    .home {
+        padding-bottom: 90px;
+    }
 }
 @media(max-width: 550px){
     .home__container {
