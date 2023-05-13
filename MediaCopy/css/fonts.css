@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter/Regular/Inter-Regular.ttf") format("ttf");
+    src: url("../fonts/Inter/Regular/Inter-Regular.woff") format("woff"),
+         url("../fonts/Inter/Regular/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../fonts/Inter/SemiBold/Inter-Semibold.ttf") format("ttf");
+    src: url("../fonts/Inter/SemiBold/Inter-Semibold.woff") format("woff"),
+         url("../fonts/Inter/SemiBold/Inter-Semibold.woff2") format("woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Qanelas-Regular";
+    src: url("../fonts/Qanelas/Regular/Qanelas-Regular.ttf") format("ttf");
+    src: url("../fonts/Qanelas/Regular/Qanelas-Regular.woff") format("woff"),
+         url("../fonts/Qanelas/Regular/Qanelas-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Qanelas-SemiBold";
+    src: url("../fonts/Qanelas/SemiBold/Qanelas-SemiBold.ttf") format("ttf");
+    src: url("../fonts/Qanelas/SemiBold/Qanelas-SemiBold.woff") format("woff"),
+         url("../fonts/Qanelas/SemiBold/Qanelas-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "RadioCanada-Regular";
+    src: url("../fonts/RadioCanada/Regular/RadioCanada-Regular.ttf") format("ttf");
+    src: url("../fonts/RadioCanada/Regular/RadioCanada-Regular.woff") format("woff"),
+         url("../fonts/RadioCanada/Regular/RadioCanada-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "RoadRadio-Bold";
+    src: url("../fonts/RoadRadio/Bold/RoadRadio-Bold.ttf") format("ttf");
+    src: url("../fonts/RoadRadio/Bold/RoadRadio-Bold.woff") format("woff"),
+         url("../fonts/RoadRadio/Bold/RoadRadio-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/Regular/Roboto-Regular.ttf") format("ttf");
+    src: url("../fonts/Roboto/Regular/Roboto-Regular.woff") format("woff"),
+         url("../fonts/Roboto/Regular/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+}

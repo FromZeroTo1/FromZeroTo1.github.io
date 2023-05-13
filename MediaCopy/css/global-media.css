@@ -1,0 +1,226 @@
+@media(max-width: 1750px){
+    .container{
+        max-width: 90%;
+    }
+    .title {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .subtitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .search {
+        margin: 50px 0 50px;
+    }
+    .burger__search{
+        padding: 10px 14px 10px 14px;
+    }
+}
+@media(max-width: 1500px){
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .burger {
+        max-width: 280px;
+        padding: 36px 16px 36px;
+    }
+}
+@media(max-width: 1360px){
+    .container{
+        max-width: 100%;
+    }
+    .search {
+        margin: 30px 0 30px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 27px;
+    }
+    .subtitle {
+        font-size: 17px;
+        line-height: 18px;
+    }
+}
+@media(max-width: 1200px){
+    .search {
+        padding: 10px 24px 10px 18px;
+        font-size: 16px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .header__menu{
+        font-size: 16px;
+    }
+    .menu__burger span {
+        width: 35px;
+    }
+    .menu__burger span + span {
+        margin-top: 10px;
+    }
+    .menu__auth-reg {
+        margin: 0 30px 0 14px;
+    }
+    .general__menu-burger {
+        margin: 0 25px 0 30px;
+    }
+    .services__item-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .services__item-subtitle {
+        font-size: 15px;
+    }
+    .services__item {
+        padding: 10px 18px 10px;
+    }
+    .dropdown{
+        font-size: 18px;
+        line-height: 18px;
+        padding-right: 25px;
+    }
+    .burger__search {
+        padding: 6px 14px 6px 14px;
+        font-size: 14px;
+    }
+    .burger__search img{
+        width: 15px;
+    }
+    .menu__sub-link{
+        font-size: 15px;
+    }
+    .dropdown span{
+        width: 8px;
+        height: 2px;
+    }
+    .dropdown span:first-child {
+        right: 5px;
+    }
+}
+@media(max-width: 1000px){
+    .subtitle {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .services__item{
+        max-width: 32%;
+    }
+}
+@media(max-width: 850px){
+    .services{
+        gap: 20px;
+        justify-content: center;
+    }
+    .services__item {
+        max-width: calc(50% - 10px);
+    }
+    .services__item-subtitle{
+        max-width: 280px;
+        width: 100%;
+    }
+    .social__list{
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+@media(max-width: 700px){
+    .menu__auth-reg {
+        margin: 0 15px 0 15px;
+        padding: 7px 12px;
+    }
+    .header__menu {
+        font-size: 15px;
+    }
+}
+@media(max-width: 600px){
+    .menu__burger span{
+        width: 27px;
+    }
+    .menu__burger span + span {
+        margin-top: 7px;
+    }
+    .services__item {
+        max-width: 400px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .home__container {
+        margin: 50px auto 0;
+    }
+    .general-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    .home{
+        padding-bottom: 115px;
+    }
+    .social-footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+    .services__item-subtitle {
+        max-width: 260px;
+    }
+}
+@media(max-width: 500px){
+    .dropdown{
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+@media(max-width: 450px){
+    .menu__burger span + span {
+        margin-top: 7px;
+    }
+    .menu__burger span {
+        width: 28px;
+    }
+    .search {
+        margin: 25px 0 28px;
+    }
+    .burger{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media(max-width: 400px){
+    .container{
+        padding: 0 15px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .subtitle {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .services__item-title {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .mobile-footer__text{
+        font-size: 15px;
+    }
+    .burger{
+        transform: translate(100%, 46px);
+    }
+    .burger.active{
+        transform: translate(0%, 46px);
+    }
+}
