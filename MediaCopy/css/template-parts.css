@@ -68,11 +68,11 @@
 .menu__burger span {
     display: block;
     background: var(--gray);
-    width: 40px;
+    width: 33px;
     height: 1px;
 }
 .menu__burger span + span {
-    margin-top: 13px;
+    margin-top: 10px;
 }
 /* Header End*/
 /* Page Start */
