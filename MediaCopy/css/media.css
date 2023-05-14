@@ -1,0 +1,332 @@
+@media(max-width: 1750px){
+    .container{
+        max-width: 90%;
+    }
+    .title {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .subtitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .burger__search{
+        padding: 10px 14px 10px 14px;
+    }
+    .home__box {
+        max-width: 500px;
+    }
+}
+@media(max-width: 1500px){
+    .home__container{
+        margin: 130px auto 0;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .burger {
+        max-width: 280px;
+        padding: 36px 16px 36px;
+    }
+    .home__box {
+        max-width: 450px;
+    }
+}
+@media(max-width: 1360px){
+    .container{
+        max-width: 100%;
+    }
+    .search {
+        margin: 30px 0 30px;
+    }
+    .title {
+        font-size: 28px;
+        line-height: 27px;
+    }
+    .subtitle {
+        font-size: 17px;
+        line-height: 18px;
+    }
+}
+@media(max-width: 1200px){
+    .services__item-box {
+        max-width: 190px;
+    }
+    .search {
+        padding: 10px 24px 10px 18px;
+        font-size: 16px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .header__menu{
+        font-size: 16px;
+    }
+    .menu__burger span {
+        width: 35px;
+    }
+    .menu__burger span + span {
+        margin-top: 10px;
+    }
+    .menu__auth-reg {
+        margin: 0 30px 0 14px;
+    }
+    .general__menu-burger {
+        margin: 0 25px 0 30px;
+    }
+    .services__item-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .services__item-subtitle {
+        font-size: 15px;
+    }
+    .services__item {
+        padding: 10px 18px 10px;
+    }
+    .dropdown{
+        font-size: 18px;
+        line-height: 18px;
+        padding-right: 25px;
+    }
+    .burger__search {
+        padding: 6px 14px 6px 14px;
+        font-size: 14px;
+    }
+    .burger__search img{
+        width: 15px;
+    }
+    .menu__sub-link{
+        font-size: 15px;
+    }
+    .dropdown span{
+        width: 8px;
+        height: 2px;
+    }
+    .dropdown span:first-child {
+        right: 5px;
+    }
+}
+@media(max-width: 1000px){
+    .home__container {
+        margin: 90px auto 0;
+    }
+    .subtitle {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .services__item{
+        max-width: 32%;
+    }
+}
+@media(max-width: 850px){
+    .home__container {
+        margin: 70px auto 0;
+    }
+    .home__box {
+        max-width: 400px;
+    }
+    .services{
+        gap: 20px;
+        justify-content: center;
+    }
+    .services__item {
+        max-width: calc(50% - 10px);
+    }
+    .services__item-subtitle{
+        max-width: 280px;
+        width: 100%;
+    }
+    .social__list{
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .menu__list-item + .menu__list-item {
+        margin-top: 18px;
+    }
+}
+@media(max-width: 700px){
+    .menu__auth-reg {
+        margin: 0 15px 0 15px;
+        padding: 7px 12px;
+    }
+    .header__menu {
+        font-size: 15px;
+    }
+}
+@media(max-width: 600px){
+    .home__box {
+        max-width: 380px;
+    }
+    .subtitle {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .search {
+        max-width: 380px;
+        width: 100%;
+        margin: 20px auto 20px;
+    }
+    .services__item{
+        max-width: 380px;
+        align-items: center;
+    }
+    .services__item-subtitle {
+        max-width: 260px;
+        margin-top: 7px;
+        font-size: 14px;
+    }
+    .services__item-title {
+        font-size: 18px;
+        line-height: 18px;
+    }    
+    .menu__burger span{
+        width: 27px;
+    }
+    .menu__burger span + span {
+        margin-top: 7px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .home__container {
+        margin: 50px auto 0;
+    }
+    .general-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    .home{
+        padding-bottom: 115px;
+    }
+    .social-footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+}
+@media(max-width: 550px){
+    .home__container {
+        margin: 45px auto 0;
+    }
+}
+@media(max-width: 500px){
+    .dropdown{
+        font-size: 16px;
+        line-height: 16px;
+        padding-right: 21px;
+    }
+    .mobile-footer__item {
+        height: 42px;
+    }
+    .home {
+        padding-bottom: 85px;
+    }
+    .mobile-footer__item img {
+        max-height: 24px;
+    }
+    .mobile-footer__text {
+        font-size: 13px;
+        max-width: 57px;
+    }
+    .mobile-footer {
+        padding: 10px 0px 6px;
+    }
+    .home__container {
+        margin: 32px 0 0;
+    }
+    .menu__list-item + .menu__list-item {
+        margin-top: 13px;
+    }
+    .menu__sub-list.open .menu__sub-item {
+        margin: 6px 0;
+    }
+    .menu__sub-link {
+        font-size: 13px;
+    }
+}
+@media(max-width: 450px){
+    .home__box{
+        margin: 0;
+        max-width: 190px;
+        text-align: left;
+    }
+    .search {
+        margin: 25px 0 28px;
+        padding: 7px 15px 7px 18px;
+        font-size: 13px;
+    }
+    .search img{
+        width: 15px;
+    }
+    .menu__burger span{
+        width: 21px;
+    }
+    .menu__burger span + span {
+        margin-top: 5px;
+    }
+    .burger{
+        max-width: 100%;
+        width: 100%;
+        transform: translate(100%, 46px);
+    }
+    .burger.active{
+        transform: translate(0%, 46px);
+    }
+    .burger-menu {
+        height: calc(100% - 100px);
+    }
+    .menu__list::-webkit-scrollbar {
+        width: 2px;
+        border-radius: 2px;
+    }
+    .menu__list::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+    }
+}
+@media(max-width: 400px){
+    .home__container {
+        max-width: 320px;
+    }
+    .container {
+        padding: 0 27px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .subtitle {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .services__item-title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .services__item-arrow svg{
+        width: 15px;
+    }
+    .services__item-subtitle{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .services__item-box {
+        max-width: 160px;
+    }
+    .mobile-footer__item img {
+        max-width: 19px;
+        max-height: 21px;
+    }
+}
