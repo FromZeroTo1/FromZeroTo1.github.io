@@ -26,6 +26,13 @@
 .mobile__menu-burger{
     margin: 0;
 }
+.menu__lang{
+    display: flex;
+    align-items: center;
+}
+.menu__flag{
+    margin-right: 10px;
+}
 .header{
     position: relative;
 }
