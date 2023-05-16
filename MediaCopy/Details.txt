@@ -1,8 +1,0 @@
-footer to bottom
-if clicked service animation dropdown content
-animation to single accordion
-
-
-
-
-media
