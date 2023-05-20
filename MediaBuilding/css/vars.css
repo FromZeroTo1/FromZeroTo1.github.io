@@ -1,0 +1,15 @@
+:root{
+    --gray: #C9C9C9;
+    
+    /* fonts */
+    --interRegular: "Inter-Regular";
+    --interSemiBold: "Inter-SemiBold";
+    --qanelasRegular: "Qanelas-Regular";
+    --qanelasSemiBold: "Qanelas-SemiBold";
+    --radioCanadaRegular: "RadioCanada-Regular";
+    --roadRadioBold: "RoadRadio-Bold";
+    --robotoRegular: "Roboto-Regular";
+
+    /* border */
+    --borderRadius: 14px;
+}
