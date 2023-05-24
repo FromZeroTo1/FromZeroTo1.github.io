@@ -1,0 +1,42 @@
+footer,
+custom select,
+catalog media
+media
+
+
+
+
+
+dzelu baner
+
+
+//Header
+1.poqracnel headeri aj koxmy ✔️
+2.header-y petqa misht fixed lini top-in (mobile) ✔️
+3.Ru-i flagy qcel menu-i mej (mobile) ✔️
+
+
+//Footer
+1.poqracnel social-y ✔️
+2.footer-y petqa misht fixed lini bottom-in (mobile) ✔️
+
+//Index
+1.index-y nenc anel vor 100vh lini  ✔️
+2.index-um poqracnel mejtexi masy ✔️
+3.poqracnel headeri aj koxmy  ✔️
+4.heraxosneri vra gap-y chi ashatum ✔️
+5.nenc anel vor heraxosneri vra index-y mi ekran lini 100vh ✔️
+
+//Catalog
+1.es pahy mi hat nayi araji videon 4:00-ic
+2.catalog - i median lriv urisha
+
+//Single Product
+1.chem jogum voncor notebooki ekranum shat herua produkti nkary info-ic - motikacnel
+2.es pahy chjoga araji video 6:00
+3.es pahy chjoga araji video 7:00
+4.esi shat lurj paha araji video 8:00 - ic
+5.yndex liqy baner ka nayi haves chka grelu ia es inch pahvacqa
+
+
+
