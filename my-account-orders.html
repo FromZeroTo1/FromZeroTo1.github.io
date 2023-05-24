@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/vars.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/template-parts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/global-media.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<div id="page" class="site account">
+		<header class="header account-header">
+			<div class="container">
+				<div class="account-header__inner">
+					<a class="logo" href="#">
+						<img src="images/logo-large.svg" alt="">
+					</a>
+					<nav class="header__menu account__menu">
+						<a class="menu__balance" href="#">
+							<img src="images/menu-balance.svg">
+							<span class="menu__balance-inner">
+								Кошелек: <span class="menu__balance-count">200</span>
+							</span>
+						</a>
+						<a class="menu__bonus" href="#">
+							<img src="images/menu-bonus.svg">
+							<span class="menu__bonus-inner">
+								Бонусы: <span class="menu__bonus-count">200</span>
+							</span>
+						</a>
+						<div class="menu__favorite">
+							<img class="menu__favorite-icon" src="images/header-favorite.svg">
+							<span class="menu__favorite-count">
+								1
+							</span>
+						</div>
+						<a class="menu__logged" href="#">
+							<img src="images/my-account-logo.png">
+						</a>
+						<a class="menu__burger burger-btn general__menu-burger" href="">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<a class="menu__lang" href="">
+							<img src="images/flag-russia.png" />
+							RU
+						</a>
+						<div class="tabs__bar account__header-bar">
+							<div class="tabs__bar-info">
+								<div class="tabs__bar-logo">
+									<img src="images/my-account-logo.png">
+								</div>
+								<h2 class="tabs__bar-title">
+									Anonim
+								</h2>
+							</div>
+							<ul class="tabs__list">
+								<li class="tabs__list-item">
+									<a class="tabs__list-link active" href="my-account.html">
+										<img src="images/my-account-form.svg" />
+										Личный кабинет
+									</a>
+								</li>
+								<li class="tabs__list-item">
+									<a class="tabs__list-link" href="my-account-balance.html">
+										<img src="images/my-account-balance.svg" />
+										Пополнить баланс
+									</a>
+								</li>
+								<li class="tabs__list-item">
+									<a class="tabs__list-link" href="my-account-orders.html">
+										<img src="images/my-account-order-history.png" />
+										История заказов
+									</a>
+								</li>
+								<li class="tabs__list-item">
+									<a class="tabs__list-link" href="my-account-support.html">
+										<img src="images/my-account-support.svg" />
+										Служба поддержки
+									</a>
+								</li>
+								<li class="tabs__list-item">
+									<a class="tabs__list-link" href="my-account-partners.html">
+										<img src="images/my-account-partners.svg" />
+										Партнёрам
+									</a>
+								</li>
+								<li class="tabs__list-item">
+									<a href="#" class="tabs__list-link">
+										<img src="images/my-account-logout.svg" />
+										Выход
+									</a>
+								</li>
+								<li class="tabs__list-item tabs__list-item-balance">
+									<a href="#" class="tabs__list-link">
+										<img src="images/menu-balance.svg">
+										<span class="tabs__list-balance">
+											Кошелек: <span class="tabs__list-balance-count">200</span>
+										</span>
+									</a>
+								</li>
+								<li class="tabs__list-item tabs__list-item-bonus">
+									<a href="#" class="tabs__list-link">
+										<img src="images/menu-bonus.svg">
+										<span class="tabs__list-bonus">
+											Бонусы: <span class="tabs__list-bonus-count">200</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="burger general-burger">
+					<form class="burger__search">
+						<input class="burger__input" type="text" placeholder="Введите площадку">
+						<button class="burger__btn" type="submit">
+							<img src="images/search.svg">
+						</button>
+					</form>
+					<nav class="burger-menu menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Меню
+									<span></span>
+									<span></span>
+								</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Главная
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Каталог
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Контакты
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Политика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Меню
+									<span></span>
+									<span></span>
+								</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Главная
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Каталог
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Контакты
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Политика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Меню
+									<span></span>
+									<span></span>
+								</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Главная
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Каталог
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Контакты
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Политика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Меню
+									<span></span>
+									<span></span>
+								</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Главная
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Каталог
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Контакты
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Политика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Меню
+									<span></span>
+									<span></span>
+								</a>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Главная
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Каталог
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Контакты
+										</a>
+									</li>
+									<li class="menu__sub-item">
+										<a class="menu__sub-link" href="#">
+											Политика
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link dropdown" href="#">
+									Услуги
+									<span></span>
+									<span></span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<header class="header mobile-header">
+			<div class="container">
+				<div class="mobile-menu">
+					<a class="mobile-logo" href="#">
+						<img src="images/mobile-logo.svg">
+					</a>
+					<nav class="account__mobile-menu">
+						<a class="menu__favorite">
+							<img class="menu__favorite-icon" src="images/header-favorite.svg">
+							<span class="menu__favorite-count">
+								1
+							</span>
+						</a>
+						<a class="menu__logged" href="#">
+							<img src="images/my-account-logo.png">
+						</a>
+						<a class="menu__burger burger-btn mobile__menu-burger" href="#">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</nav>
+					<div class="tabs__bar account__header-bar">
+						<div class="tabs__bar-info">
+							<div class="tabs__bar-logo">
+								<img src="images/my-account-logo.png">
+							</div>
+							<h2 class="tabs__bar-title">
+								Anonim
+							</h2>
+						</div>
+						<ul class="tabs__list">
+							<li class="tabs__list-item">
+								<a class="tabs__list-link active" href="my-account.html">
+									<img src="images/my-account-form.svg" />
+									Личный кабинет
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-balance.html">
+									<img src="images/my-account-balance.svg" />
+									Пополнить баланс
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-orders.html">
+									<img src="images/my-account-order-history.png" />
+									История заказов
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-support.html">
+									<img src="images/my-account-support.svg" />
+									Служба поддержки
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-partners.html">
+									<img src="images/my-account-partners.svg" />
+									Партнёрам
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a href="#" class="tabs__list-link">
+									<img src="images/my-account-logout.svg" />
+									Выход
+								</a>
+							</li>
+							<li class="tabs__list-item tabs__list-item-balance">
+								<a href="#" class="tabs__list-link">
+									<img src="images/menu-balance.svg">
+									<span class="tabs__list-balance">
+										Кошелек: <span class="tabs__list-balance-count">200</span>
+									</span>
+								</a>
+							</li>
+							<li class="tabs__list-item tabs__list-item-bonus">
+								<a href="#" class="tabs__list-link">
+									<img src="images/menu-bonus.svg">
+									<span class="tabs__list-bonus">
+										Бонусы: <span class="tabs__list-bonus-count">200</span>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="burger mobile-burger">
+						<form class="burger__search">
+							<input class="burger__input" type="text" placeholder="Введите площадку">
+							<button class="burger__btn" type="submit">
+								<img src="images/search.svg">
+							</button>
+						</form>
+						<nav class="burger-menu menu">
+							<ul class="menu__list">
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Меню
+										<span></span>
+										<span></span>
+									</a>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Главная
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Каталог
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Контакты
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Политика
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Меню
+										<span></span>
+										<span></span>
+									</a>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Главная
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Каталог
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Контакты
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Политика
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Меню
+										<span></span>
+										<span></span>
+									</a>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Главная
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Каталог
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Контакты
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Политика
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Меню
+										<span></span>
+										<span></span>
+									</a>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Главная
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Каталог
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Контакты
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Политика
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Меню
+										<span></span>
+										<span></span>
+									</a>
+									<ul class="menu__sub-list">
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Главная
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Каталог
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Контакты
+											</a>
+										</li>
+										<li class="menu__sub-item">
+											<a class="menu__sub-link" href="#">
+												Политика
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link dropdown" href="#">
+										Услуги
+										<span></span>
+										<span></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main account__main">
+			<div class="container">
+				<div class="breadcrumbs account__breadcrumbs">
+					<a class="breadcrumbs__prev" href="">
+						Главная
+					</a>
+					<a class="breadcrumbs__current" href="">
+						Личный кабинет
+					</a>
+				</div>
+				<h1 class="account__title">
+					История Заказов
+				</h1>
+				<div class="account__tabs tabs">
+					<div class="tabs__bar account__tabs-bar">
+						<div class="tabs__bar-info">
+							<div class="tabs__bar-logo">
+								<img src="images/my-account-logo.png">
+							</div>
+							<h2 class="tabs__bar-title">
+								Anonim
+							</h2>
+						</div>
+						<ul class="tabs__list">
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account.html">
+									<img src="images/my-account-form.svg" />
+									Личный кабинет
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-balance.html">
+									<img src="images/my-account-balance.svg" />
+									Пополнить баланс
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link active" href="my-account-orders.html">
+									<img src="images/my-account-order-history.png" />
+									История заказов
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-support.html">
+									<img src="images/my-account-support.svg" />
+									Служба поддержки
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a class="tabs__list-link" href="my-account-partners.html">
+									<img src="images/my-account-partners.svg" />
+									Партнёрам
+								</a>
+							</li>
+							<li class="tabs__list-item">
+								<a href="#" class="tabs__list-link">
+									<img src="images/my-account-logout.svg" />
+									Выход
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="tabs__content tabs__orders-content">
+						<div class="tabs__orders">
+							<h3 class="tabs__subtitle tabs__orders-subtitle">Список ваших заказов</h3>
+							<div class="tabs__orders-row">
+								<table class="tabs__orders-table">
+									<thead class="tabs__orders-thead">
+										<tr class="tabs__orders-tr">
+											<th class="tabs__orders-th">№</th>
+											<th class="tabs__orders-th">Ссылка</th>
+											<th class="tabs__orders-th">Тариф</th>
+											<th class="tabs__orders-th">Продукт</th>
+											<th class="tabs__orders-th">Кол-во</th>
+											<th class="tabs__orders-th">Статус</th>
+											<th class="tabs__orders-th">Дата</th>
+											<th class="tabs__orders-th">Цена</th>
+										</tr>
+									</thead>
+									<tbody class="tabs__orders-tbody">
+										<tr class="tabs__orders-tr">
+											<td class="tabs__orders-td"><span>№1348</span></td>
+											<td class="tabs__orders-td">https://media-building.com/</td>
+											<td class="tabs__orders-td">
+												<img src="images/order-lite.png">
+												Лайт
+											</td>
+											<td class="tabs__orders-td">Прокачка аккаунта</td>
+											<td class="tabs__orders-td">170</td>
+											<td class="tabs__orders-td"><span>Отменен</span></td>
+											<td class="tabs__orders-td">25.08.21</td>
+											<td class="tabs__orders-td">QIWI <span>200 ₽</span></td>
+											<td class="tabs__orders-td repeat-td">
+												<a href="#" class="tabs__orders-repeat repeat-order btn-light">
+													<img src="images/repeat.svg">
+													Повторить заказ
+												</a>
+											</td>
+										</tr>
+										<tr class="tabs__orders-tr">
+											<td class="tabs__orders-td"><span>№1348</span></td>
+											<td class="tabs__orders-td">https://media-building.com/</td>
+											<td class="tabs__orders-td">
+												<img src="images/order-lite.png">
+												Лайт
+											</td>
+											<td class="tabs__orders-td">Прокачка аккаунта</td>
+											<td class="tabs__orders-td">170</td>
+											<td class="tabs__orders-td"><span>Отменен</span></td>
+											<td class="tabs__orders-td">25.08.21</td>
+											<td class="tabs__orders-td">QIWI <span>200 ₽</span></td>
+											<td class="tabs__orders-td repeat-td">
+												<a href="#" class="tabs__orders-repeat repeat-order btn-light">
+													<img src="images/repeat.svg">
+													Повторить заказ
+												</a>
+											</td>
+										</tr>
+										<tr class="tabs__orders-tr">
+											<td class="tabs__orders-td"><span>№1348</span></td>
+											<td class="tabs__orders-td">https://media-building.com/</td>
+											<td class="tabs__orders-td">
+												<img src="images/order-lite.png">
+												Лайт
+											</td>
+											<td class="tabs__orders-td">Прокачка аккаунта</td>
+											<td class="tabs__orders-td">170</td>
+											<td class="tabs__orders-td"><span>Отменен</span></td>
+											<td class="tabs__orders-td">25.08.21</td>
+											<td class="tabs__orders-td">QIWI <span>200 ₽</span></td>
+											<td class="tabs__orders-td repeat-td">
+												<a href="#" class="tabs__orders-repeat repeat-order btn-light">
+													<img src="images/repeat.svg">
+													Повторить заказ
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="tabs__orders-pagination tabs__pagination">
+				</ul>
+			</div>
+		</main>
+		<a href="#" class="arrow-up">
+			<img src="images/arrow-down.png">
+		</a>
+		<footer class="footer">
+			<div class="container">
+					<div class="footer__inner">
+							<div class="footer__col footer__col-1">
+									<a class="footer__logo" href="#">
+											<img src="images/logo-large.svg" />
+									</a>
+									<p class="footer__text">
+											Мы обеспечиваем пользователей по всему миру наиболее эффективным, надежным и экономичным
+											решением из доступных на рынке продвижения в соц. сетях.
+									</p>
+									<ul class="footer__social">
+											<li class="footer__social-item">
+													<a class="footer__social-link" href="#">
+															<img src="images/whatsapp.svg" />
+															WhatSapp: <span class="footer__social-value">+7 921 456 68 30</span>
+													</a>
+											</li>
+											<li class="footer__social-item">
+													<a class="footer__social-link" href="#">
+															<img src="images/telegram.svg" />
+															Telegram: <span class="footer__social-value">@media_building_com</span>
+													</a>
+											</li>
+											<li class="footer__social-item">
+													<a class="footer__social-link" href="#">
+															<img src="images/sms.svg" />
+															Mail: <span class="footer__social-value">mediabuilding@yandex.ru</span>
+													</a>
+											</li>
+									</ul>
+							</div>
+							<div class="footer__col footer__col-2">
+									<h3 class="footer__col-title">
+											Recent Posts
+									</h3>
+									<ul class="footer__recent">
+											<li class="footer__recent-item">
+													<a class="footer__recent-link" href="#">
+															Exploring Atlantás modern homes
+													</a>
+													<div class="footer__recent-info">
+															<span class="footer__recent-date">
+																	27.08.2021
+															</span>
+															<span class="footer__recent-comment">
+																	Нет комментариев
+															</span>
+													</div>
+											</li>
+											<li class="footer__recent-item">
+													<a class="footer__recent-link" href="#">
+															Green interior design inspiration
+													</a>
+													<div class="footer__recent-info">
+															<span class="footer__recent-date">
+																	27.08.2021
+															</span>
+															<span class="footer__recent-comment">
+																	Нет комментариев
+															</span>
+													</div>
+											</li>
+									</ul>
+							</div>
+							<div class="footer__col footer__col-3">
+									<h3 class="footer__col-title">
+											Our Stores
+									</h3>
+									<nav class="footer__pages">
+											<ul class="footer__pages-list">
+													<li class="footer__pages-item">
+															<a class="footer__pages-link" href="#">
+																	Pages
+															</a>
+													</li>
+													<li class="footer__pages-item">
+															<a class="footer__pages-link" href="#">
+																	О нас
+															</a>
+													</li>
+													<li class="footer__pages-item">
+															<a class="footer__pages-link" href="#">
+																	Контакты
+															</a>
+													</li>
+											</ul>
+									</nav>
+							</div>
+							<div class="footer__col footer__col-4">
+									<h3 class="footer__col-title">
+											Навигация
+									</h3>
+									<nav class="footer__navigation">
+											<ul class="footer__navigation-list">
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Privacy Policy
+															</a>
+													</li>
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Returns
+															</a>
+													</li>
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Terms & Conditions
+															</a>
+													</li>
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Contact Us
+															</a>
+													</li>
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Latest News
+															</a>
+													</li>
+													<li class="footer__navigation-item">
+															<a class="footer__navigation-link" href="#">
+																	Our Sitemap
+															</a>
+													</li>
+											</ul>
+									</nav>
+							</div>
+							<div class="footer__col footer__col-5">
+									<h3 class="footer__col-title">
+											Категории
+									</h3>
+									<nav class="footer__category">
+											<ul class="footer__category-list">
+													<li class="footer__category-item">
+															<a class="footer__category-link" href="#">
+																	Главная
+															</a>
+													</li>
+													<li class="footer__category-item">
+															<a class="footer__category-link" href="#">
+																	Блог
+															</a>
+													</li>
+													<li class="footer__category-item">
+															<a class="footer__category-link" href="#">
+																	Акции
+															</a>
+													</li>
+													<li class="footer__category-item">
+															<a class="footer__category-link" href="#">
+																	О нас
+															</a>
+													</li>
+													<li class="footer__category-item">
+															<a class="footer__category-link" href="#">
+																	Контакты
+															</a>
+													</li>
+											</ul>
+									</nav>
+							</div>
+					</div>
+			</div>
+			<div class="footer__bottom">
+					<div class="container">
+							<div class="footer__bottom-inner">
+									<p class="footer__copyright">
+											MEDIABUILDING @ 2023 Все права защищены.
+									</p>
+									<ul class="footer__payment">
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+											<li class="footer__payment-item">
+													<a class="footer__payment-link">
+															<img src="images/visa.png" />
+													</a>
+											</li>
+									</ul>
+							</div>
+					</div>
+			</div>
+
+	</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.6.1/imask.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.4/jquery.simplePagination.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/my-account.js"></script>
+</body>
+
+</html>
