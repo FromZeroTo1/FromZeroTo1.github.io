@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "SF-Regular";
+  src: url("./../fonts/SF-Regular.woff") format("woff"),
+	url("./../fonts/SF-Regular.woff2") format("woff2");
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF-Medium";
+  src: url("./../fonts/SF-Medium.woff") format("woff"),
+	url("./../fonts/SF-Medium.woff2") format("woff2");
+	font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF-Bold";
+  src: url("./../fonts/SF-Bold.woff") format("woff"),
+	url("./../fonts/SF-Bold.woff2") format("woff2");
+	font-weight: 700;
+}
+
+@font-face {
+  font-family: "Epilogue-Regular";
+  src: url("./../fonts/Epilogue-Regular.woff") format("woff"),
+	url("./../fonts/Epilogue-Regular.woff2") format("woff2");
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: "Epilogue-Bold";
+  src: url("./../fonts/Epilogue-Bold.woff") format("woff"),
+	url("./../fonts/Epilogue-Bold.woff2") format("woff2");
+	font-weight: 700;
+}
+
+@font-face {
+  font-family: "Segoe-Regular";
+  src: url("./../fonts/Segoe-Regular.woff") format("woff"),
+	url("./../fonts/Segoe-Regular.woff2") format("woff2");
+	font-weight: 400;
+}
+
+@font-face {
+  font-family: "Segoe-Bold";
+  src: url("./../fonts/Segoe-Bold.woff") format("woff"),
+	url("./../fonts/Segoe-Bold.woff2") format("woff2");
+	font-weight: 700;
+}

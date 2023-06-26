@@ -1,0 +1,13 @@
+:root {
+	--ar: 'Arial';
+
+  --sf-r: 'SF-Regular';
+  --sf-m: 'SF-Medium';
+	--sf-b: 'SF-Bold';
+
+	--ep-r: 'Epilogue-Regular';
+	--ep-b: 'Epilogue-Bold';
+
+	--se-r: 'Segoe-Regular';
+	--se-b: 'Segoe-Bold';
+}
