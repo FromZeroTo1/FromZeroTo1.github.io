@@ -864,10 +864,12 @@
 	background: #D9D9D9;
 }
 .project__support-input{
+	outline: none;
 	width: 450px;
 	margin-right: 30px;
 	font-size: 31px;
 	font-family: var(--ar);
+	border: none;
 	border-bottom: 2px solid #D9D9D9;
 }
 /* Project Support */
