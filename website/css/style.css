@@ -580,6 +580,7 @@
 	line-height: 30px;
 }
 .project__tabs-content-item{
+	width: 100%;
 	display: flex;
 	align-items: center;
 	gap: 28px;
