@@ -1,0 +1,226 @@
+/* Big Header */
+.header {
+	background: #000;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.header__fill {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 17px 0 13px;
+}
+.header__mobile-fill{
+	display: none;
+}
+.header__logo {
+	font-family: var(--ar);
+	font-weight: 700;
+	font-size: 28px;
+	margin-right: 75px;
+}
+.header__search {
+	margin-right: 29px;
+}
+.header__left{
+	display: flex;
+	align-items: center;
+}
+.header__left .header__link,
+.header__search{
+	font-family: var(--ar);
+	font-size: 20px;
+}
+.header__right {
+	display: flex;
+	align-items: center;
+}
+.header__right .header__link{
+	font-family: var(--ar);
+	font-size: 18px;
+}
+.header__sign {
+	font-family: var(--sf-b);
+	line-height: 27px;
+	font-size: 19px;
+	padding: 8px 24px;
+	border-radius: 30px;
+}
+.header__register {
+	font-family: var(--sf-m);
+	line-height: 27px;
+	font-size: 19px;
+	border-radius: 30px;
+	position: relative;
+	margin: 0 21px 0 51px;
+	color: #fff;
+	padding: 8px 24px;
+	background: linear-gradient(#000, #000) padding-box,
+	linear-gradient(90deg, #5A2FED 0%, #8F00FF 100%) border-box;
+	border: 1px solid transparent;
+}
+.header__sign {
+	background: linear-gradient(90deg, #5a2fed 0%, #8906fd 100%);
+}
+/* Big Header */
+
+/* Mobile Header */
+.header__mobile-fill{
+	align-items: center;
+	justify-content: space-between;
+	padding: 24px 0 17px;
+}
+.header__mobile-right{
+	display: flex;
+	align-items: center;
+}
+.header__mobile-logo{
+	font-family: var(--ar);
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+}
+.header__mobile-burger{
+	margin-right: 26px;
+}
+.header__mobile-burger img,
+.header__mobile-profile img{
+	width: 35px;
+}
+/* Mobile Header */
+
+/* Footer */
+.footer {
+	background: #f6f6f6;
+	padding: 105px 0 92px;
+}
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__top-mobile{
+	display: none;
+}
+.footer__logo {
+	font-family: var(--ar);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 35px;
+	color: #000;
+}
+.footer__top-info {
+	max-width: 635px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__adress {
+	font-family: var(--ar);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #909090;
+}
+.footer__tel {
+	font-family: var(--ar);
+	font-weight: 400;
+	line-height: 25px;
+	font-size: 24px;
+	color: #909090;
+}
+.footer__list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.footer__fill {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 97px;
+	font-family: var(--ar);
+	gap: 20px;
+}
+.footer__fill-item {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+}
+a.footer__fill-link {
+	color: #cbcbcb;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+.footer__fill-item + .footer__fill-item {
+	margin-top: 24px;
+}
+.footer__bottom {
+	position: relative;
+	margin-top: 70px;
+}
+.footer__bottom-title {
+	font-family: var(--sf-m);
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.footer__bottom-slide {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	gap: 25px;
+}
+.footer__bottom-swiper{
+	margin-right: 115px;
+}
+.footer__bottom-more{
+	position: absolute;
+	right: 0;
+	top: 85px;
+	padding: 26px 14px 26px 22px;
+	background: #EEEEEE;
+	border-radius: 32px;
+}
+.footer__bottom-more a{
+	font-family: var(--sf-m);
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	line-height: 32px;
+	font-size: 17px;
+	color: #AAAEB1;
+}
+.footer__list {
+  gap: 30px;
+}
+.footer__bottom-item {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	max-width: 520px;
+	width: 100%;
+	padding: 16px 80px 16px 16px;
+	border-radius: 15px;
+	background: #eeeeee;
+}
+.footer__bottom-text {
+	font-family: var(--sf-m);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.footer__bottom-link {
+	color: #aaaeb1;
+}
+.footer__bottom-date {
+	font-family: var(--sf-r);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #aaaeb1;
+}
+/* Footer */
