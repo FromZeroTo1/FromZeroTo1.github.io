@@ -633,7 +633,7 @@
 	flex-direction: column;
 	margin-top: 45px;
 	font-family: var(--sf-r);
-	letter-spacing: -1.3px;
+	letter-spacing: -0.3px;
 	color: #9A9A9A;
 	gap: 5px;
 }
