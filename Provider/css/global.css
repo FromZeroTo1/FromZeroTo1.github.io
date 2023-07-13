@@ -1,0 +1,47 @@
+.container{
+	max-width: 1675px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+li{
+	display: inline-block;
+}
+a{
+	display: inline-block;
+	color: inherit;
+}
+body{
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: var(--RobotoRegular);
+	font-size: 20px;
+	color: var(--MainGray);
+}
+.red-btn{
+	background: var(--Red);
+	color: #fff;
+}
+.dark-btn{
+	background: var(--MainGray);
+	color: #fff;
+}
+.light-btn{
+	background: var(--LightGray);
+}
+.green-btn{
+	background: var(--Green);
+	color: #fff;
+}
+.white-btn{
+	background: #fff;
+}
+.section-title{
+	font-family: var(--RobotoBold);
+	font-size: 32px;
+}
+.btn-box{
+	text-align: center;
+}
+.subtitle{
+	font-family: var(--RobotoLight);
+}
