@@ -51,12 +51,6 @@
 		right: 0;
 		top: 0;
 	}
-	.home__banner-promotion-thumbnail{
-	        background-image: url('../images/promotion-preview-triangle.png');
-	 	background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 	.home__banner-promotion img{
 		max-width: 130px;
 		margin-bottom: 13px;
