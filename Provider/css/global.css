@@ -9,6 +9,12 @@
 	margin-left: auto;
 	margin-right: 30px;
 }
+.about-container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 50px;
+}
 li{
 	display: inline-block;
 }
@@ -44,6 +50,11 @@ body{
 .section-title{
 	font-family: var(--RobotoBold);
 	font-size: 32px;
+}
+.about-title{
+	font-family: var(--RobotoBold);
+	font-size: 36px;
+	text-align: center;
 }
 .btn-box{
 	text-align: center;
