@@ -880,6 +880,9 @@
 	.about__advantages-title{
 		margin-bottom: 50px;
 	}
+	.about__advantages-title span{
+		color: var(--Red);
+	}
 	.about__advantages-fill{
 		display: flex;
 		align-items: stretch;
