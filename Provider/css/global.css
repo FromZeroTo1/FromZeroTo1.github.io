@@ -1,0 +1,64 @@
+.container{
+	max-width: 1675px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+.home-container{
+	max-width: 1600px;
+	padding: 0 50px;
+	margin-left: auto;
+	margin-right: 30px;
+}
+.small-container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+li{
+	display: inline-block;
+}
+a{
+	display: inline-block;
+	color: inherit;
+}
+body{
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: var(--RobotoRegular);
+	font-size: 20px;
+	color: var(--MainGray);
+}
+.red-btn{
+	background: var(--Red);
+	color: #fff;
+}
+.dark-btn{
+	background: var(--MainGray);
+	color: #fff;
+}
+.light-btn{
+	background: var(--LightGray);
+}
+.green-btn{
+	background: var(--Green);
+	color: #fff;
+}
+.white-btn{
+	background: #fff;
+}
+.section-title{
+	font-family: var(--RobotoBold);
+	font-size: 32px;
+}
+.about-title{
+	font-family: var(--RobotoBold);
+	font-size: 36px;
+	text-align: center;
+}
+.btn-box{
+	text-align: center;
+}
+.subtitle{
+	font-family: var(--RobotoLight);
+}

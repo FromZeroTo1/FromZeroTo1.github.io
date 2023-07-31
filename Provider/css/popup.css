@@ -1,0 +1,72 @@
+/* Partner Popup Start */
+	.partner{
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		height: 100vh;
+		width: 100vw;
+		z-index: 2;
+		background: rgba(0, 0, 0, 0.8);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0;
+		transition: opacity .3s, visibility .3s;
+	}
+	.partner.show{
+		visibility: visible;
+		opacity: 1;
+	}
+	.partner__wrapper{
+		max-width: 1300px;
+		width: 100%;
+		position: relative;
+		background: #fff;
+		border-radius: 15px;
+	}
+	.partner__fill{
+		display: flex;
+		align-items: center;
+		gap: 180px;
+		padding: 17px 162px;
+	}
+	.partner__info{
+		max-width: 460px;
+		width: 100%;
+		padding-left: 15px;
+		position: relative;
+	}
+	.partner__info::before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 8px;
+		height: 260px;
+		width: 2px;
+		background: var(--Green);
+	}
+	.partner__title{
+		font-family: var(--RobotoBold);
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	.partner__text{
+		text-align: justify;
+		margin-bottom: 35px;
+	}
+	.partner__btn{
+		font-family: var(--RobotoBold);
+		background: var(--Red);
+		border-radius: 10px;
+		padding: 9px 18px;
+		color: #fff;
+	}
+	.partner-close{
+		position: absolute;
+		right: 40px;
+		top: 30px;
+	}
+/* Partner Popup End */
