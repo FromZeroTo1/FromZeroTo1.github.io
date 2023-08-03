@@ -9,6 +9,12 @@
 	margin-left: auto;
 	margin-right: 30px;
 }
+.medium-container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 50px;
+}
 .small-container{
 	max-width: 1300px;
 	width: 100%;
