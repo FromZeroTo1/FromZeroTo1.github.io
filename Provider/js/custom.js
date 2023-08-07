@@ -42,47 +42,47 @@ jQuery(function($) {
 
 
 
-	function HomeTariffCardVisibility() {
-		let windowWidth = $(window).width();
-		let cardCount;
+	// function HomeTariffCardVisibility() {
+	// 	let windowWidth = $(window).width();
+	// 	let cardCount;
 
-		// Определите количество карточек в зависимости от ширины окна
-		if (windowWidth <= 1700 && windowWidth > 1300) {
-			cardCount = 4;
-		} else if (windowWidth <= 1300 && windowWidth > 900) {
-			cardCount = 3;
-		} else if(windowWidth <= 900) {
-			cardCount = 2;
-		}else{
-			cardCount = 5;
-		}
+	// 	// Определите количество карточек в зависимости от ширины окна
+	// 	if (windowWidth <= 1700 && windowWidth > 1300) {
+	// 		cardCount = 4;
+	// 	} else if (windowWidth <= 1300 && windowWidth > 900) {
+	// 		cardCount = 3;
+	// 	} else if(windowWidth <= 900) {
+	// 		cardCount = 2;
+	// 	}else{
+	// 		cardCount = 5;
+	// 	}
 
-		// Показать первоначальное количество карточек
-		$(".tariff-item:lt(" + cardCount + ")").show();
+	// 	// Показать первоначальное количество карточек
+	// 	$(".tariff-item:lt(" + cardCount + ")").show();
 
-		let hidden = $(".tariff-item:hidden");
-		if (hidden.length >= cardCount) {
-			$('.tariff-btn-box').fadeIn();
-		}else{
-			$('.tariff-btn-box').fadeOut();
-		}
-		// Обработчик события нажатия на кнопку "Show More"
-		$(".tariff-more").on('click', function(event) {
-			event.preventDefault();
-			hidden = $(".tariff-item:hidden");
-			$(hidden).slice(0, cardCount).fadeIn(800);
-			if (hidden.length >= cardCount) {
-				$('.tariff-btn-box').fadeIn();
-			}else{
-				$('.tariff-btn-box').fadeOut();
-			}
-		});
-	}
-	HomeTariffCardVisibility();
+	// 	let hidden = $(".tariff-item:hidden");
+	// 	if (hidden.length >= cardCount) {
+	// 		$('.tariff-btn-box').fadeIn();
+	// 	}else{
+	// 		$('.tariff-btn-box').fadeOut();
+	// 	}
+	// 	// Обработчик события нажатия на кнопку "Show More"
+	// 	$(".tariff-more").on('click', function(event) {
+	// 		event.preventDefault();
+	// 		hidden = $(".tariff-item:hidden");
+	// 		$(hidden).slice(0, cardCount).fadeIn(800);
+	// 		if (hidden.length >= cardCount) {
+	// 			$('.tariff-btn-box').fadeIn();
+	// 		}else{
+	// 			$('.tariff-btn-box').fadeOut();
+	// 		}
+	// 	});
+	// }
+	// HomeTariffCardVisibility();
 
-	$(window).resize(function() {
-		HomeTariffCardVisibility();
-	});
+	// $(window).resize(function() {
+	// 	HomeTariffCardVisibility();
+	// });
 
 
 // Custom Range Start
