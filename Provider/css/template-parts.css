@@ -539,10 +539,6 @@
 .tariff-item{
 	max-width: 300px;
 	width: 100%;
-	display: none;
-}
-.tariff-item.show {
-	opacity: 1;
 }
 .tariff__title{
 	text-align: center;
@@ -632,11 +628,34 @@
 	margin: 25px 0 9px;
 	color: var(--SecondGray);
 }
-.tariff-btn-box{
-	display: none;
-}
 .tariff-more{
 	padding: 14px 152px;
 	border-radius: 25px;
 }
 /* Tariff End */
+
+/* Social Start */
+.social{
+	position: fixed;
+	z-index: 3;
+	right: 70px;
+	bottom: 25px;
+	border-radius: 30px;
+	background: #fff;
+	box-shadow: 5px 5px 50px 5px rgba(46,232,154,0.25);
+	-webkit-box-shadow: 5px 5px 50px 5px rgba(46,232,154,0.25);
+	-moz-box-shadow: 5px 5px 50px 5px rgba(46,232,154,0.25);
+}
+.social__fill{
+	padding: 28px 15px 36px;
+}
+.social__list{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.social__item-link img{
+	width: 50px;
+	height: 50px;
+}
+/* Social End */
