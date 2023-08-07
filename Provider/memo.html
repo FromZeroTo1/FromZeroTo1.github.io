@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/vars.css" rel="stylesheet" />
+	<link href="css/fonts.css" rel="stylesheet" />
+	<link href="css/global.css" rel="stylesheet" />
+	<link href="css/template-parts.css" rel="stylesheet" />
+	<link href="css/popup.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/media.css" rel="stylesheet" />
+	<link href="css/reset.css" rel="stylesheet" />
+	<title>Provider</title>
+</head>
+
+<body>
+	<header class='header'>
+		<div class='container'>
+			<div class='header__wrapper'>
+				<div class='header__top'>
+					<ul class='header__top-list'>
+						<li class='header__top-item'>
+							<a class='header__top-link' href='about.html'>
+								<img src='images/header/about.png' />
+								О компании
+							</a>
+						</li>
+						<li class='header__top-item active'>
+							<a class='header__top-link' href='index.html'>
+								<img src='images/header/private-individuals.png' />
+								Частным лицам
+							</a>
+						</li>
+						<li class='header__top-item'>
+							<a class='header__top-link'>
+								<img src='images/header/for-business.png' />
+								Для бизнеса
+							</a>
+						</li>
+						<li class='header__top-item'>
+							<a class='header__top-link'>
+								<img src='images/header/contact.png' />
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class='header__fill'>
+					<a class='logo' href='index.html'>
+						<img src='images/logo.png' />
+					</a>
+					<nav class='menu'>
+						<ul class='menu__list'>
+							<li class='menu__list-item'><a class='menu__item-link' href='tariff.html'>Интернет</a></li>
+							<li class='menu__list-item'><a class='menu__item-link' href='digital-tv.html'>Цифровое TV</a></li>
+							<li class='menu__list-item'><a class='menu__item-link' href='faq.html'>FAQ</a></li>
+							<li class='menu__list-item active'><a class='menu__item-link' href='memo.html'>Файлы</a></li>
+							<li class='menu__list-item'><a class='menu__item-link' href='#'>Способ оплаты</a></li>
+							<li class='menu__list-item'><a class='menu__item-link' href='#'>Интересное</a></li>
+						</ul>
+						<ul class='auth__list'>
+							<li class='auth__list-item'><a class='auth__item-link sign light-btn'>Войти</a></li>
+							<li class='auth__list-item'><a class='auth__item-link logout red-btn'>Подключить Лутаком</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class='main memo-main'>
+		<section class="memo">
+			<div class="small-container">
+				<div class='memo__wrapper'>
+					<div class='memo__item left green'>
+						<div class='memo__item-wrapper'>
+							<div class='memo__item-top' style='background-image: url("images/page-memo/memo-item-1.png");'>
+								<h3 class='memo__item-title'>SSL</h3>
+							</div>
+							<div class='memo__item-fill'>
+								<a class='memo__item-btn' href='#'>Посмотреть</a>
+							</div>
+						</div>
+						<div class='ssl-popup popup memo-popup'>
+							<div class='ssl-popup__wrapper popup__wrapper memo-popup-wrapper'>
+								<div class='ssl-popup__fill popup__fill memo-popup-fill'>
+									<img class='ssl-popup__preview popup__preview memo-popup-preview'
+										src='images/page-memo/memo-item-1.png' />
+									<div class='ssl-popup__info popup__info memo-popup-info'>
+										<h3 class='ssl-popup__title popup__title memo-popup-title'>
+											SSL
+										</h3>
+										<div class='ssl-popup__items popup__items memo-popup-items'>
+											<a class='ssl-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												ISRG Root X1
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class='ssl-popup-close memo-popup-close popup-close' href='#'>
+									<img src='images/icons/close-red.png' />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class='memo__item right red'>
+						<div class='memo__item-wrapper'>
+							<div class='memo__item-top' style='background-image: url("images/page-memo/memo-item-2.png");'>
+								<h3 class='memo__item-title'>IPTV Player</h3>
+							</div>
+							<div class='memo__item-fill'>
+								<p class='memo__item-text'>Плейлист: http://iptv.luta.info/play.m3u</p>
+								<a class='memo__item-btn' href='#'>Посмотреть</a>
+							</div>
+						</div>
+						<div class='iptv-popup popup memo-popup'>
+							<div class='iptv-popup__wrapper popup__wrapper memo-popup-wrapper'>
+								<div class='iptv-popup__fill popup__fill memo-popup-fill'>
+									<img class='iptv-popup__preview popup__preview memo-popup-preview'
+										src='images/page-memo/memo-item-2.png' />
+									<div class='iptv-popup__info popup__info memo-popup-info'>
+										<h3 class='iptv-popup__title popup__title memo-popup-title'>
+											IPTV Player
+										</h3>
+										<ul class='iptv-popup__list popup__list memo-popup-list'>
+											<li class='iptv-popup__list-item popup__list-item memo-popup-list-item'>
+												Адрес плейлиста: <span class='green'>http://iptv.luta.info/play.m3u</span>
+											</li>
+											<li class='iptv-popup__list-item popup__list-item memo-popup-list-item'>
+												Не знаете как настроить? Перейдите в раздел <span class='green'>ПОМОЩЬ</span>
+												<span class='red'>ССЫЛКА НА СТРАНИЦУ FAQ</span>
+											</li>
+											<li class='iptv-popup__list-item popup__list-item memo-popup-list-item'>
+												Возникли вопросы? Позвоните нам <span class='green'>КОНТАКТЫ</span>
+											</li>
+										</ul>
+										<div class='iptv-popup__items popup__items memo-popup-items'>
+											<a class='iptv-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												IPTV Player
+												для ПК
+											</a>
+											<a class='iptv-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												IPTV Playlist
+											</a>
+											<a class='iptv-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												IPTV Playlist-1
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class='iptv-popup-close memo-popup-close popup-close' href='#'>
+									<img src='images/icons/close-red.png' />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class='memo__item left orange'>
+						<div class='memo__item-wrapper'>
+							<div class='memo__item-top' style='background-image: url("images/page-memo/memo-item-3.png");'>
+								<h3 class='memo__item-title'>Televizo - IPTV Player</h3>
+							</div>
+							<div class='memo__item-fill'>
+								<p class='memo__item-text'>Версия: 1.9.5.37</p>
+								<a class='memo__item-btn' href='#'>Посмотреть</a>
+							</div>
+						</div>
+						<div class='tv-popup popup memo-popup'>
+							<div class='tv-popup__wrapper popup__wrapper memo-popup-wrapper'>
+								<div class='tv-popup__fill popup__fill memo-popup-fill'>
+									<img class='tv-popup__preview popup__preview memo-popup-preview'
+										src='images/page-memo/memo-item-3.png' />
+									<div class='tv-popup__info popup__info memo-popup-info'>
+										<h3 class='tv-popup__title popup__title memo-popup-title'>
+											IPTV Player Televizo
+										</h3>
+										<ul class='tv-popup__list popup__list memo-popup-list'>
+											<li class='tv-popup__list-item popup__list-item memo-popup-list-item'>
+												Версия: 1.9.5.37
+											</li>
+										</ul>
+										<div class='tv-popup__items popup__items memo-popup-items'>
+											<a class='tv-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												Televizo 1.9.5.37
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class='tv-popup-close memo-popup-close popup-close' href='#'>
+									<img src='images/icons/close-red.png' />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class='memo__item right blue'>
+						<div class='memo__item-wrapper'>
+							<div class='memo__item-top' style='background-image: url("images/page-memo/memo-item-4.png");'>
+								<h3 class='memo__item-title'>Прошивки для TV-приставки Alphabox</h3>
+							</div>
+							<div class='memo__item-fill'>
+								<p class='memo__item-text'>
+									Для TV приставок Alphabox <br>
+									T24, T25, T45, X3, X6, X7
+								</p>
+								<a class='memo__item-btn' href='#'>Посмотреть</a>
+							</div>
+						</div>
+						<div class='firmware-popup popup memo-popup'>
+							<div class='firmware-popup__wrapper popup__wrapper memo-popup-wrapper'>
+								<div class='firmware-popup__fill popup__fill memo-popup-fill'>
+									<img class='firmware-popup__preview popup__preview memo-popup-preview'
+										src='images/page-memo/memo-item-4.png' />
+									<div class='firmware-popup__info popup__info memo-popup-info'>
+										<h3 class='firmware-popup__title popup__title memo-popup-title'>
+											Прошивки для TV-приставки Alphabox
+										</h3>
+										<ul class='firmware-popup__list popup__list memo-popup-list'>
+											<li class='firmware-popup__list-item popup__list-item memo-popup-list-item'>
+												Актуальные прошивки для TV приставок Alphabox T24, T25, T45, X3, X6, X7
+											</li>
+										</ul>
+										<div class='firmware-popup__items popup__items memo-popup-items'>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												Alphabox X7
+												211021
+											</a>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												Alphabox X3
+												220822
+											</a>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												Alphabox X6
+												Combo 170301
+											</a>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												T24 Alphabox
+												06_10_2021_v28
+											</a>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												T25_Alphabox
+												08_11_2021
+											</a>
+											<a class='firmware-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												T45_Alphabox
+												21_10_2022
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class='firmware-popup-close memo-popup-close popup-close' href='#'>
+									<img src='images/icons/close-red.png' />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class='memo__item large yellow'>
+						<div class='memo__item-wrapper'>
+							<div class='memo__item-top' style='background-image: url("images/page-memo/memo-item-5.png");'></div>
+							<div class='memo__item-fill'>
+								<h3 class='memo__item-title'>Договор оказания интернет услуг</h3>
+								<p class='memo__item-text'>
+									Ознакомьтесь с условиями
+									договора оказания
+									интернет услуг
+								</p>
+								<a class='memo__item-btn' href='#'>Посмотреть</a>
+							</div>
+						</div>
+						<div class='large-popup popup memo-popup'>
+							<div class='large-popup__wrapper popup__wrapper memo-popup-wrapper'>
+								<div class='large-popup__fill popup__fill memo-popup-fill'>
+									<img class='large-popup__preview popup__preview memo-popup-preview'
+										src='images/page-memo/memo-item-5.png' />
+									<div class='large-popup__info popup__info memo-popup-info'>
+										<h3 class='large-popup__title popup__title memo-popup-title'>
+											Договор оказания интернет услуг
+										</h3>
+										<ul class='large-popup__list popup__list memo-popup-list'>
+											<li class='tv-popup__list-item popup__list-item memo-popup-list-item'>
+												Нажмите, чтобы ознакомиться с условиями оказания интернет услуг.
+											</li>
+										</ul>
+										<div class='large-popup__items popup__items memo-popup-items'>
+											<a class='large-popup__item popup__item memo-popup-item' href='#'>
+												<img src='images/popup/memo-popup-download.png' />
+												Договор
+												оказания
+												услуг
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class='large-popup-close memo-popup-close popup-close' href='#'>
+									<img src='images/icons/close-red.png' />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class='footer'>
+		<div class='container'>
+			<div class='footer__wrapper'>
+				<div class='footer__fill'>
+					<div class='footer__contact'>
+						<h2 class='footer__contact-title'>
+							Как с нами связаться
+						</h2>
+						<ul class='footer__social-list'>
+							<li class='footer__social-item'>
+								<a class='footer__social-link' href='#'>
+									<img src='images/icons/telegram-green.png' />
+									Написать в телеграм
+								</a>
+							</li>
+							<li class='footer__social-item'>
+								<a class='footer__social-link' href='#'>
+									<img src='images/icons/viber-green.png' />
+									Написать в вайбер
+								</a>
+							</li>
+							<li class='footer__social-item'>
+								<a class='footer__social-link' href='#'>
+									<img src='images/icons/mail-green.png' />
+									Написать на почту
+								</a>
+							</li>
+						</ul>
+						<a class='footer__contact-tel' href='#'>
+							+7 (959) 106-41-93
+						</a>
+						<a class='footer__contact-call' href='#'>
+							Заказать обратный звонок
+						</a>
+					</div>
+					<div class='footer__cols'>
+						<div class='footer__col'>
+							<h3 class='footer__col-title'>
+								О компании
+							</h3>
+							<ul class='footer__col-list'>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Контакты</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Новости</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Файлы</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Партнерам</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Вакансии</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Памятка</a>
+								</li>
+							</ul>
+						</div>
+						<div class='footer__col'>
+							<h3 class='footer__col-title'>
+								Для дома
+							</h3>
+							<ul class='footer__col-list'>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Интернет</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Подключиться</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Способы оплаты</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Цифровое TV</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Интересное</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Lutacom WiFi</a>
+								</li>
+							</ul>
+							<ul class='footer__additional-list'>
+								<li class='footer__additional-item'>
+									<a class='footer__additional-link'>Памятка</a>
+								</li>
+								<li class='footer__additional-item'>
+									<a class='footer__additional-link'>Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<div class='footer__col'>
+							<h3 class='footer__col-title'>
+								Для бизнеса
+							</h3>
+							<ul class='footer__col-list'>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Телевидение</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Интернет</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Аренда каналов</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Хотспоты</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Операторам</a>
+								</li>
+								<li class='footer__col-item'>
+									<a class='footer__col-link'>Контакты</a>
+								</li>
+							</ul>
+							<ul class='footer__additional-list'>
+								<li class='footer__additional-item'>
+									<a class='footer__additional-link'>Памятка</a>
+								</li>
+								<li class='footer__additional-item'>
+									<a class='footer__additional-link'>Файлы</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<a class='footer__logo' href='index.html'>
+						<img src='images/footer/logo.png' />
+					</a>
+				</div>
+				<div class='footer__copy'>Лутаком. Все права защищены. 2023.</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'></script>
+	<script src='js/popup.js'></script>
+	<script src='js/app.js'></script>
+</body>
+
+</html>
