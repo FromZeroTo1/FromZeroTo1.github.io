@@ -1,0 +1,244 @@
+@media (max-width: 1500px) {
+	.banner__video{
+    height: 600px;
+	}
+}
+
+@media (max-width: 1320px) {
+	.company-photo {
+			width: 33%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.company-photo {
+			padding-left: 30px;
+			padding-right: 30px;
+	}
+	.menu-item-link{
+		font-size: 18px;
+	}
+	.banner-title{
+		padding: 25px 0 15px;
+		font-size: 28px;
+	}
+	.banner-text {
+		margin-bottom: 30px;
+		font-size: 21px;
+	}
+	.variants {
+		padding: 25px 25px 25px;
+	}
+	.suggest-item h3 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.suggest-item p {
+		margin-bottom: 14px;
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.suggest-item a {
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.suggest-item {
+		margin-bottom: 0px;
+	}
+	.banner-data img {
+		width: 80px;
+		height: 80px;
+	}
+	.company-inner {
+		margin-top: 50px;
+		margin-bottom: 60px;
+		padding: 0 20px;
+	}
+	.participate-inner {
+		padding: 90px 50px;
+	}
+}
+
+@media (max-width: 1040px) {
+
+	.participate-inner {
+		padding: 40px 40px;
+		margin: 0 20px 30px 20px;
+	}
+	.footer-inner {
+		padding-top: 30px;
+		margin: 20px 20px;
+	}
+	.var-title {
+		font-size: 29px;
+	}
+	.company-title {
+		font-size: 27px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 905px) {
+	.footer-info {
+			flex-wrap: wrap;
+	}
+
+	.footer-content {
+			text-align: center;
+	}
+
+	.footer-links {
+			margin-top: 50px;
+	}
+
+	.footer-content, .footer-links {
+			width: 100%;
+	}
+}
+
+@media (max-width: 870px) {
+	.suggest-item {
+			width: 100%;
+	}
+	.participate-right {
+		width: 250px;
+		height: 250px;
+	}
+	.income-title, .expenses-title {
+		font-size: 17px;
+	}
+	.income-price, .expenses-price {
+		font-size: 21px;
+	}
+	.circle-info{
+		text-align: center;
+	}
+	.banner-data {
+			display: block;
+			text-align: center;
+	}
+
+	.data-content {
+			margin-top: 20px;
+	}
+	.banner__video{
+    height: 500px;
+	}
+}
+
+@media (max-width: 710px) {
+	.income-title {
+			font-size: 18px;
+	}
+
+	.income-price {
+			font-size: 29px;
+	}
+
+	.expenses-price {
+			font-size: 29px;
+	}
+	.banner__video{
+    height: 400px;
+	}
+}
+
+@media (max-width: 750px) {
+	.participate-inner{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 25px;
+		margin: 0;
+		margin-bottom: 30px;
+		padding: 20px;
+	}
+	.participate-left{
+		width: 100%;
+		text-align: center;
+	}
+}
+@media (max-width: 700px) {
+
+	.company-photos {
+			text-align: center;
+	}
+
+	.company-photo {
+			width: 50%;
+	}
+}
+
+@media (max-width: 625px) {
+	.participate-inner img {
+			max-width: 63%;
+	}
+	.footer-link-block a{
+		font-size: 14px;
+	}
+	.container {
+		padding: 0 15px;
+	}
+	.company-photo {
+		width: 100%;
+	}
+	.company-title {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.company-inner {
+		margin-top: 30px;
+	}
+	.company-photo {
+		padding: 40px 50px 40px 45px;
+	}
+	.company-photo {
+		padding-left: 45px;
+		padding-right: 45px;
+		border-right: none;
+	}
+
+	.income-title {
+			font-size: 16px;
+	}
+
+	.income-price,
+	.expenses-price {
+			font-size: 25px;
+	}
+}
+
+@media (max-width: 560px) {
+	.footer-links {
+			flex-wrap: wrap;
+	}
+
+	.footer-link {
+			width: 100%;
+			text-align: center;
+	}
+	.banner__video{
+    height: 300px;
+	}
+	.banner-title {
+		font-size: 24px;
+	}
+	.var-title {
+		font-size: 25px;
+		margin-bottom: 25px;
+	}
+	.suggest-item {
+		margin-top: 0px;
+	}
+	.suggest-item + .suggest-item{
+		margin-top: 40px;
+	}
+}
+
+
+@media (max-width: 420px) {
+	.banner__video{
+    height: 250px;
+	}
+	
+}

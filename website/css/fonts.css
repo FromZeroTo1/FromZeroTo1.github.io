@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Nova-Light';
+  src:  url('../fonts/Proxima-Nova/light/proximanova_light.woff') format('woff'),
+  url('../fonts/Proxima-Nova/light/proximanova_light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nova-Regular';
+  src:  url('../fonts/Proxima-Nova/regular/proximanova_regular.woff') format('woff'),
+  url('../fonts/Proxima-Nova/regular/proximanova_regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nova-Medium';
+  src:  url('../fonts/Proxima-Nova/medium/proximanova_medium.woff') format('woff'),
+  url('../fonts/Proxima-Nova/medium/proximanova_medium.woff2') format('woff');
+}
+@font-face {
+  font-family: 'Nova-Bold';
+  src:  url('../fonts/Proxima-Nova/bold/proximanova_bold.woff') format('woff'),
+  url('../fonts/Proxima-Nova/bold/proximanova_bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nova-ExtraBold';
+  src:  url('../fonts/Proxima-Nova/extrabold/proximanova_extrabold.woff') format('woff'),
+  url('../fonts/Proxima-Nova/extrabold/proximanova_extrabold.woff2') format('woff2');
+}
