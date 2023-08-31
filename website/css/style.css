@@ -82,7 +82,7 @@ a {
 
 .banner-data {
     background: #eee;
-    border-radius: 0 0 15px 15px ;
+    border-radius: 0 0 15px 15px;
 }
 
 .suggest {
@@ -93,8 +93,9 @@ a {
 }
 
 .var-title {
-    font-size: 35px;     
-    font-family: 'Nova-Bold', sans-serif;;
+    font-size: 35px;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
 }
 
 .suggest-item {
@@ -103,13 +104,16 @@ a {
     margin-bottom: 50px;
 }
 
-.suggest-item, .suggest-item p {
+.suggest-item,
+.suggest-item p {
     color: #333333;
 }
-.banner__video{
+
+.banner__video {
     width: 100%;
     height: 800px;
 }
+
 .suggest-item h3 {
     font-size: 22px;
     font-family: 'Nova-Bold', sans-serif;
@@ -131,7 +135,8 @@ a {
     align-items: center;
 }
 
-.variants, .banner-data {
+.variants,
+.banner-data {
     line-height: 1.6em;
 }
 
@@ -149,7 +154,8 @@ a {
 }
 
 .data-name span {
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
 }
 
 /* Company */
@@ -195,12 +201,14 @@ a {
 
 .participate-title {
     font-size: 27px;
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
     color: #333;
     margin-bottom: 15px;
 }
 
 .participate-text {
+    line-height: 1.6em;
     margin-bottom: 27px;
 }
 
@@ -209,7 +217,8 @@ a {
     background: #2d1ea9;
     padding: 14px 20px 10px 20px;
     border-radius: 7px;
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
 }
 
 .participate-right {
@@ -243,12 +252,14 @@ a {
 
 .income-price,
 .expenses-price {
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
     font-size: 31px;
     margin-top: 5px;
 }
 
-.income-title, .expenses-title {
+.income-title,
+.expenses-title {
     font-size: 20px;
 }
 
@@ -270,18 +281,18 @@ a {
     align-items: center;
 }
 
-.footer-content {
-
-}
+.footer-content {}
 
 .footer-content h3 {
     margin-top: 15px;
     margin-bottom: 30px;
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
 }
 
 .footer-address {
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
     line-height: 1.6em;
     margin-bottom: 25px;
 }
@@ -291,7 +302,8 @@ a {
 }
 
 .mail-link span {
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
 }
 
 .footer-logo {
@@ -306,7 +318,8 @@ a {
 }
 
 .footer-link h5 {
-    font-family: 'Nova-Bold', sans-serif;;
+    font-family: 'Nova-Bold', sans-serif;
+    ;
     margin-bottom: 15px;
 }
 
