@@ -1,0 +1,37 @@
+:root {
+	/* Colors */
+	--primary-gray: #444444;
+	--secondary-gray: #333333;
+	--bg-gray: #292929;
+	--orange: #ee562f;
+	--white: #fff;
+	--black: #000;
+
+	/* Radiuses */
+	--small-radius: 5px;
+	--base-radius: 15px;
+	--big-radius: 20px;
+
+	/* Font Sizes */
+	--small: 14px;
+	--base: 24px;
+	--lg: 54px;
+
+	/* Font Families */
+	--dm-medium: 'DM-Sans-Medium', sans-serif;
+	--dm-bold: 'DM-Sans-Bold', sans-serif;
+
+	--inter-regular: 'Inter-Regular', sans-serif;
+	--inter-medium: 'Inter-Medium', sans-serif;
+	--inter-semibold: 'Inter-SemiBold', sans-serif;
+
+	--raleway-regular: 'Raleway-Regular', sans-serif;
+	--raleway-medium: 'Raleway-Medium', sans-serif;
+	--raleway-semibold: 'Raleway-SemiBold', sans-serif;
+	--raleway-bold: 'Raleway-Bold', sans-serif;
+
+	--roboto-regular: 'Roboto-Regular', sans-serif;
+	--thicccboi-Medium: 'THICCCBOI-Medium', sans-serif;
+	--furore-regular: 'Furore-Regular', sans-serif;
+	--gilroy-semibold: 'Gilroy-SemiBold', sans-serif;
+}
